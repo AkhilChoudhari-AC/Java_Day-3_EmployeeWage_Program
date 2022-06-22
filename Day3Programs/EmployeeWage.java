@@ -9,10 +9,12 @@ public class EmployeeWage {
       //  int PartTime = 2;
         int WorkDayPerMonth = 20;
         int WagePerHr = 20;
-      //  int FullDayHr = 0;
-       // int PartTimeHr = 0;
+        int MaxWorkHr = 100;
+         //     int FullDayHr = 0;
+          //  int PartTimeHr = 0;
        int EmpHr = 0;
-        for (int day = 0; day < WorkDayPerMonth; day++){
+       for (int day = 0; day < WorkDayPerMonth; day++){
+
         Random rand = new Random();
         int empCheck = rand.nextInt(3);
      //   if (empCheck == FullPresent) {
